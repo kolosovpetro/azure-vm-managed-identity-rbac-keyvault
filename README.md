@@ -1,9 +1,13 @@
-# Terraform template
+# Azure Managed Identity RBAC for Key Vault access
 
-Terraform template for modules and submodules.
-Includes pre-commit hooks that lint the terraform code and generate module's
-documentation as part of README file.
-Contains examples of terraform CI/CD pipelines for GitHub Actions and Azure Pipelines.
+## Az Login
+![test](./images/01_az_login_managed_identity.png)
+
+## List secrets
+![test](./images/02_list_secrets.png)
+
+## Show secret
+![test](./images/03_show_secret.png)
 
 ## Azure naming conventions
 

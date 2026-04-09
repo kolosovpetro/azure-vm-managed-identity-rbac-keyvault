@@ -13,7 +13,7 @@ variable "prefix" {
 variable "subscription_id" {
   type        = string
   description = "Azure subscription ID"
-  default = "1b08b9a2-ac6d-4b86-8a2f-8fef552c8371"
+  default     = "1b08b9a2-ac6d-4b86-8a2f-8fef552c8371"
 }
 
 variable "tags" {
